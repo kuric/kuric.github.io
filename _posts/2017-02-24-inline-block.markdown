@@ -55,3 +55,4 @@ First and important: as a substitute for float!
 4. No additional markings when columns has different heights;
 5. We can center our columns with text-align: center;
 ## IMPORTANT! We can create our grids with inline-block without floats :)
+***

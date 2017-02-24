@@ -1,12 +1,12 @@
 locale: "en-US"
-title: My portfolio # Title of your site
+title: Front-newbie blog and portfolio # Title of your site
 url: "http://kuric.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: "UA-92402892-1"
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: > # this means to ignore newlines until "baseurl:"
-  Front-end developer portfolio and blogs
+  Front-end developer portfolio and blogs. Some CSS Magic, some JS scripts and other.
 
 # Author details for the jekyll-seo-tag gem
 author:
