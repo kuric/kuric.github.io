@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tetris</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<audio id="sound" loop>
+	 <source src="audio/sound.mp3" type="audio/mpeg">
+	</audio>
+		<div class="" id="popup">
+			<h2>Game Over</h2>
+			<p>Your score: </p>
+			<input type="text" id="playerName" required autofocus>
+			<button id="startAgain">Start again</button>
+		</div>
+	<h1 class="score__title">Score: <span id="score"></span></h1>
+	<canvas id="tetris" height="400" width="240"></canvas>
+	<div class="help">
+		<h2>Rotate left: <span>Z</span></h2>
+		<h2>Rotate right: <span>X</span></h2>
+		<h2>Move left: <span>&larr;</span></h2>
+		<h2>Move right: <span>&rarr;</span></h2>
+		<h2>Move down: <span>&darr;</span></h2>
+	</div>
+	<button id="start">Start</button>
+	<div id="scoreTable">
+		
+	</div>
+	<script src="js/tetris.js"></script>
+</body>
+</html>

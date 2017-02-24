@@ -1,0 +1,13 @@
+---
+layout: post
+title: Cuda site
+date: 2017-02-22T00:022:40.000Z
+category: works
+---
+
+[<img src="/images/fulls/cuda.png" class="image">](/my-works/cuda/index.html)
+
+This site was develop for practice. In work I used flex, SASS, Jquery, some JS, WOW,JS and animate.css
+Result : simple and fast landing page without frameworks.
+
+[See here](/my-works/cuda/index.html)

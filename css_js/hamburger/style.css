@@ -1,0 +1,41 @@
+.wrapper {
+	width: 45px;
+	height: 45px;
+	border: 1px solid #000;
+    background-color: #fff;
+}
+.hamburger, .hamburger:before , .hamburger:after {
+	background-color: #000;
+	height: 3px;
+	width: 30px;
+	transition: 0.5s;
+}
+.hamburger {
+	position: relative;
+	margin: 20px auto 0 auto;
+}
+.hamburger:before,.hamburger:after  {
+	content: '';
+	position: absolute;
+}
+.hamburger:before {
+	top: -10px;
+}
+.hamburger:after {
+	top: 10px;
+}
+.wrapper:hover .hamburger{
+	border: none;
+	background: transparent;
+	transition: 0.5s;
+}
+.wrapper:hover .hamburger:before {
+	transition: 0.5s;
+	transform: rotate(45deg);
+	top: 0px;
+}
+.wrapper:hover .hamburger:after{
+	transition: 0.5s;
+	transform: rotate(-45deg);
+	top: 0px;
+}

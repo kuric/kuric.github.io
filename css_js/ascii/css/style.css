@@ -1,0 +1,58 @@
+body {
+	background-color: #c5cbd6;
+}
+form {
+	width: 200px;
+	margin: auto;
+	text-align: center;
+	
+}
+fieldset {
+	border-radius: 5px;
+}
+input {
+	border-radius: 5px;
+}
+button {
+	display: block;
+	margin: 10px auto;
+	background-color: green;
+	color: #ffffff;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+label {
+	font-weight: bold;
+}
+table {
+	margin: 20px auto;
+	border: 5px double rgba(133,133,133,0.6);
+	border-collapse: collapse;
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+th {
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+tr {
+	border-top: 1px solid black;
+}
+td {
+	text-align: center;
+	font-weight: bold;
+	padding: 5px;
+	font-size: 120%;
+}
+td:nth-of-type(even) {
+	border-right: 1px solid black;
+}
+

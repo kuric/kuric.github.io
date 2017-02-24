@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) {
+		body {
+			-webkit-text-size-adjust: none;
+			width: 20px;
+			margin: 0px 5px;
+		}
+		.post , .post-header , .post-footer ,.post-navigation, #slider {
+	width: 80%;
+	margin: auto;
+}
+}

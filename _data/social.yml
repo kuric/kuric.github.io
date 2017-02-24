@@ -1,0 +1,12 @@
+- name: Twitter
+  link: 'https://twitter.com/kuridz'
+  social_icon: Twitter
+  new_window: true
+- name: Git
+  link: 'https://github.com/kuric'
+  social_icon: Git
+  new_window: true
+- name: Skype
+  link: 'skype:gallskiy?userinfo'
+  social_icon: Skype
+  new_window: true

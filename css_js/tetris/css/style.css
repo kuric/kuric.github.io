@@ -1,0 +1,96 @@
+body {
+	background: #000;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.wrapper {
+
+}
+#tetris{
+	border: 4px solid white;
+	border-radius: 10px;
+	display: block;
+	margin: auto;
+}
+.score__title {
+	color: #ffffff;
+	text-align: center;
+}
+.help {
+	position: absolute;
+	color:#ffffff;
+	text-align: left;
+    top: 29%;
+    left: 25%;
+}
+.help span {
+	float: right;
+	padding-left: 20px;
+}
+
+#popup {
+	display: none;
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    width: 300px;
+    height: 200px;
+    border: 2px double white;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 100;
+    background-color: #fff;
+    opacity: 0.8;
+}
+#popup p {
+	font-size: 120%;
+	font-weight: bold;
+}
+button, #start {
+	border: none;
+	background-color: #17e614;
+	border-radius: 5px;
+	padding: 10px 15px;
+	color: #ffffff;
+	font-size: 150%;
+	margin: auto;
+}
+button:hover {
+	-webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	transition: -webkit-transform 0.5s ease-in;
+	transition: transform 0.5s ease-in;
+	transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+}
+#start {
+	border:none;
+	text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+}
+#playerName {
+	margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+}
+#scoreTable {
+	border: 4px solid white;
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	right: 130px;
+	top: 80px;
+	border-radius: 10px;
+	color: #ffffff;
+}
+#scoreTable p {
+	padding: 0px 20px;
+	font-size: 110%;
+	white-space: nowrap; /* Отменяем перенос текста */
+	overflow: hidden; /* Обрезаем содержимое */
+	text-overflow: ellipsis; /* Многоточие */
+}

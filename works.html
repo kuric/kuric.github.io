@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<nav class="main__navigation">
+  <ul>
+   <li><a href="/">Home</a></li>
+    <li><a href="/works">Sites</a></li>
+    <li><a href="/css_js">CSS and JS works</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+</nav>
+<div id="main">
+{% for post in site.categories.works %}
+{{post.content}}
+{% endfor %}
+</div>

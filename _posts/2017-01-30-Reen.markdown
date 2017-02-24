@@ -1,0 +1,14 @@
+---
+layout: post
+title: Reen site
+date: 2017-02-22T00:022:30.000Z
+category: works
+---
+[<img src="/images/fulls/home-Agency-Style-Desktop.png" class="image">](/my-works/home-agency-verstka/index.html)
+
+Simple, free site for agency or some company.
+
+Used: Bootstrap, owl-carousel, Sass, HTML5. 
+Result : simple and fast landing page with Bootstrap.
+
+[See here](/my-works/home-agency-verstka/index.html)

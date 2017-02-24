@@ -1,0 +1,24 @@
+---
+layout: post
+title: KeyCode
+date: 2017-02-02
+category: css_js
+---
+# Hello!
+## In my work I often need to use some Key events. 
+So I tired to find keyCodes in Internet and I  wrote simple keyCode notifier.
+In this work I used pure JavaScript.
+### This is the code:
+```
+document.addEventListener("DOMContentLoaded", ready);
+function ready() {
+	document.addEventListener('keydown', keyCode);
+}
+	function keyCode(e) {
+	if(e.key == ' ') document.getElementById('keyName').innerText = 'Key Name: ' +e.code;	
+	else document.getElementById('keyName').innerText = 'Key Name: ' +e.key;	
+	document.getElementById('keyCode').innerText = 'Key Code: ' + e.keyCode;	
+}
+```
+### That's All )
+Full result you can [See here](/css_js/keycode/index.html)

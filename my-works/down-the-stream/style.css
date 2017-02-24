@@ -1,0 +1,132 @@
+@import url(reset.css);
+/* ===========================
+   Base
+   =========================== */
+body {
+  font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  min-width: 960px;
+  background-image: url("images/bg.jpg"); }
+
+#wrapper {
+  width: 960px;
+  height: 1350px;
+  margin: auto;
+  background-color: #ffffff; }
+
+li {
+  display: inline-block; }
+
+a {
+  color: #96ae3e; }
+
+/* ==|====================
+   Layout/Header
+   ======================= */
+#site-title {
+  letter-spacing: -1px;
+  margin-left: 182px;
+  height: 57px;
+  color: #ffffff;
+  margin-top: 56px;
+  font-size: 44px;
+  font-weight: bold; }
+
+/* ==|====================
+   Layout/Nav
+   ======================= */
+nav {
+  height: 58px;
+  margin: 6px 0;
+  margin-bottom: 12px; }
+  nav ul {
+    height: 58px;
+    width: 930px;
+    display: inline-block;
+    background-color: #000000;
+    list-style-type: none;
+    text-transform: capitalize;
+    margin: 15px; }
+    nav ul li.active {
+      background-color: #17272e; }
+    nav ul li a:link, nav ul li a:visited {
+      width: 150px;
+      height: 58px;
+      line-height: 58px;
+      display: block;
+      font-size: 11pt;
+      text-align: center;
+      text-decoration: none;
+      color: #ffffff; }
+    nav ul li a:hover {
+      background-color: #17272e;
+      height: 58px; }
+
+/* ==|======================
+   Layout/Aside
+   ========================= */
+aside {
+  margin-top: 11px;
+  margin-right: 16px;
+  width: 300px;
+  float: right; }
+  aside div {
+    background-color: #efede5;
+    margin-bottom: 20px;
+    padding: 8px 8px 0px 8px; }
+  aside h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 265px;
+    height: 40px;
+    padding-left: 18px;
+    background-color: #5d9ebd;
+    color: #ffffff;
+    line-height: 40px; }
+  aside ul {
+    padding: 21px 15px; }
+    aside ul li {
+      padding-bottom: 15px; }
+  aside p {
+    padding: 14px;
+    text-align: justify; }
+
+/* ==|====================
+   Layout/Main
+   ======================= */
+img {
+  padding: 16px 16px 0 16px; }
+
+section {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  padding-left: 32px;
+  width: 570px;
+  float: left; }
+  section article {
+    margin-bottom: 42px; }
+  section h2 a {
+    letter-spacing: -1px;
+    text-decoration: none;
+    color: #9f6841;
+    font-size: 37px;
+    font-weight: bold; }
+  section p.content_post {
+    padding-top: 10px;
+    padding-bottom: 30px; }
+  section p {
+    line-height: 26px;
+    padding-bottom: 20px; }
+
+/* ==|======================
+   Layout/Footer
+   ========================= */
+footer {
+  clear: both;
+  width: 930px;
+  height: 100px;
+  line-height: 100px;
+  margin: 16px;
+  background-color: #d1e4a7;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
