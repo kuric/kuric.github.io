@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Greenorange site
-date: 2017-01-22T00:020:44.000Z
+date: 2017-01-22
 category: works
 ---
 [<img src="/images/fulls/greenorange.png" class="image">](/my-works/greenorange/index.html)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Down the stream site
-date: 2017-01-12T00:020:44.000Z
+date: 2017-01-12
 category: works
 ---
 [<img src="/images/fulls/down-the-stream.png" class="image">](/my-works/down-the-stream/index.html)

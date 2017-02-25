@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Video-blog site
-date: 2017-01-22T00:020:44.000Z
+date: 2017-01-22
 category: works
 ---
 [<img src="/images/fulls/video-blog.png" class="image">](/my-works/video-blog/index.html)

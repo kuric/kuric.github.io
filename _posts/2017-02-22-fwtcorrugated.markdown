@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fwtcorrugated site
-date: 2017-02-22T00:015:44.000Z
+date: 2017-02-22
 category: works
 ---
 
