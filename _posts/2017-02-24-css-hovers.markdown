@@ -3,10 +3,12 @@ layout: post
 title: CSS hovers
 date: 2017-02-04
 category: css_js
+excerpt_separator: <!--more-->
 ---
 # Some CSS hover effects. 
 I used in in some my works for hover to images.
 In this work I used pure CSS.
+<!--more-->
 ### This is the part of code:
 ```
 .blur, .overlay {

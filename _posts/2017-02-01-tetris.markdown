@@ -3,6 +3,7 @@ layout: post
 title: Tetris
 date: 2017-02-01
 category: css_js
+excerpt_separator: <!--more-->
 ---
 # Tetris
 ## Let me introduce simple game - Tetris

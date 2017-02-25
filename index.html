@@ -17,9 +17,8 @@ layout: default
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
       </header>
       <section>
-        {{ post.content }}
+         {{ post.excerpt }}
         <a href="{{ post.url }}" class="button">Read more</a>
-        
       </section>
     {% endfor %}
   </section>

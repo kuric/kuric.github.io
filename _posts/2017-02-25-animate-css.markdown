@@ -3,6 +3,7 @@ layout: post
 title: Animate.css
 date: 2017-02-25
 category: blog
+excerpt_separator: <!--more-->
 ---
 
 # Animate.css
@@ -15,6 +16,7 @@ a:hover {
 }
 ```
 or something else.
+<!--more-->
 But we can very simple to do CSS magic.
 ## What is it animate.css
 Animate.css - it's a simple css library thats developed by [Daniel Eden.](https://daneden.me/)

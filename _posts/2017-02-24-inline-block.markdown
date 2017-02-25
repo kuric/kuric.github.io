@@ -3,12 +3,13 @@ layout: post
 title: Inline block elements
 date: 2017-02-24
 category: blog
+excerpt_separator: <!--more-->
 ---
 # Inline and block elements
 Hello. 
 I often sought, and then lost the information, so I decided to write a post and does unite all that is needed. 
 It may be useful to someone other than me. So, let's begin.
-		
+<!--more-->		
 ## HTML Inline and HTML Block Elements.
 
 ### Inline Elements

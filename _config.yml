@@ -1,5 +1,5 @@
 locale: "en-US"
-title: Front-newbie blog and portfolio # Title of your site
+title: Front-end blog for newbies # Title of your site
 url: "http://kuric.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: "UA-92402892-1"
@@ -19,6 +19,8 @@ social:
   name: Oleksandr Andrieiev portfolio
   links:
     - https://github.com/kuric
+    - https://www.linkedin.com/in/alexander-andreev-33652827/
+    - https://www.facebook.com/oleksandr.kuric
 
 permalink: pretty
 

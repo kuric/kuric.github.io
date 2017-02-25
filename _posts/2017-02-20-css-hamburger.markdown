@@ -3,6 +3,7 @@ layout: post
 title: CSS simple hamburger
 date: 2017-02-20
 category: css_js
+excerpt_separator: <!--more-->
 ---
 # CSS hamburger without Bootstrap or other framework. 
 Very often we do button for mobile version of site.
@@ -10,6 +11,7 @@ Very often we do button for mobile version of site.
 1. use Bootstrap or other framework
 2. use icon font like FontAwesome or other
 3. or we can create it yourself
+<!--more-->
 This is faster than framework, sinplier in use and I just prefer CSS ;)
 ### This is the part of code:
 ```
