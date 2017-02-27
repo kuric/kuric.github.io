@@ -1,0 +1,58 @@
+---
+layout: post
+title: Hover.css
+date: 2017-02-27
+category: blog
+excerpt_separator: <!--more-->
+---
+
+# Hover.css
+Today we continued the theme about effects on CSS.
+In previous post on this theme ( who do not read - read necessarily [Magic effects](https://kuric.github.io/blog/2017/02/26/magic-effects/))
+I showed that gives and how to use the library Hover.css
+Today we look what libraries Hover.css gives to us and what we do with this library.
+Let'go!
+<!--more-->
+## How to use Hover.css
+1. Download a library from  here [Hover.css](https://github.com/IanLunn/Hover)
+2. Add to you site
+3. Make a your hover effect more better
+
+If you want to work with LESS or SASS we can use this:
+```
+Properties can be prefixed like so:
+
+Sass:
+@include prefixed(transition-duration, .3s);
+LESS:
+.prefixed(transition-duration, .3s);
+```
+If we works with NPM or Bower - we can add this library to our project with simple command:
+```
+npm install --save hover.css
+```
+Bower:
+``` 
+bower install Hover
+```
+## What we can do with Hover.css ?
+Let's take a closer look at what we can do.
+You can add to your site more effects, like a 2D Transitions, Background Transitions, Icons Transitions, Border Transitions and more and more and more by adding only one library and simple add class.
+All works with this library шis based on adding '.hrv-' classes to your element.
+
+For example:
+```
+<a href="#" class="button hvr-float">Float me!</a>
+```
+Now, when you hover over the button, we get a float effect!
+
+Need more examples? Let's go here [Interactive examples](http://ianlunn.github.io/Hover/)
+
+## What is main benefits of the library?
+Ok, this is very simple. Main benefit - it's a CSS :)
+This is faster than JS, more readable and very simple to use even for beginners.
+
+
+I think it will be useful to you. Thank you and thank to [Ian Lunn](https://github.com/IanLunn)
+
+***

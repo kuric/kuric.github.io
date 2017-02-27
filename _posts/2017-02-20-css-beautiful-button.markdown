@@ -5,7 +5,7 @@ date: 2017-02-20
 category: css_js
 excerpt_separator: <!--more-->
 ---
-# CSS accordion without Bootstrap or other framework. 
+# CSS button effect. 
 Only simple CSS3.
 This is faster than framework and I just prefer CSS ;)
 In this work I used pure CSS3 (:before and :after and some simple properties).
