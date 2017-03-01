@@ -1,0 +1,42 @@
+/* ==|======================
+   Modeule/Main
+   ========================= */
+@import "../modules/_colors.scss";
+@import "general/_images.scss";
+.l-main {
+	a {
+		color: $primaryColour;
+	}
+	background-color: $l-main-bg-color;
+	margin-bottom: 50px;
+	@include clearfix;
+	.l-main-title {
+		margin-top: 20px;
+		color:$l-main-title-color;
+		h2 {
+			text-align: center;
+			font: 31px/45px $font-family;
+			letter-spacing: -1px;
+			}
+		}
+	.l-main-body {
+		width: percentage(6/12);
+		margin-top: 40px;
+		float: left;
+		p {
+			font: 20px/20px $font-family;
+			margin-bottom: 50px;
+		}
+	}	
+	.l-main-images {
+		width: percentage(6/12);
+		position: relative;
+		height: percentage(6/12);
+		img {
+			position: absolute;
+			max-width: 100%;
+			top: 10%;
+			left: 100%;
+     }
+	}
+}
