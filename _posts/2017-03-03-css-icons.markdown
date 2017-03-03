@@ -3,13 +3,14 @@ layout: post
 title: CSS icons
 date: 2017-03-03
 category: blog
+excerpt_separator: <!--more-->
 ---
 
 # CSS Icons
 
 Hello. When I was looking how to add different icons on the next project, I found on the Internet site [http://cssicon.space/#/icon/arrow-up](http://cssicon.space/#/icon/arrow-up)
 In this site we can see more examples of icons (like a Fontawesome or Bootstrap) in pure CSS.
-
+ <!--more-->
 ## What icon is on this site?
 Want arrow icons for your buttons? Yes, there is.
 For example: 
