@@ -1,0 +1,52 @@
+---
+layout: post
+title: CSS icons
+date: 2017-03-03
+category: blog
+---
+
+# CSS Icons
+
+Hello. When I was looking how to add different icons on the next project, I found on the Internet site [http://cssicon.space/#/icon/arrow-up](http://cssicon.space/#/icon/arrow-up)
+In this site we can see more examples of icons (like a Fontawesome or Bootstrap) in pure CSS.
+
+## What icon is on this site?
+Want arrow icons for your buttons? Yes, there is.
+For example: 
+```
+.arrow-up.icon:before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 1px;
+  width: 10px;
+  height: 10px;
+  border-top: solid 1px currentColor;
+  border-right: solid 1px currentColor;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+```
+ Want smilling icons ? Yes, there is too
+ ```
+ .laugh-solid.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+}
+```
+There is more than 500 icons!
+## Why is it necessary?
+Why is it necessary if we can add Fontawesome or Bootstrap or something more?
+This is pure CSS. This is faster, we do not need to connect the library and and just very cool!
+Also, it's just a super source for beginners to see how and what can be done in pure CSS.
+
+Thank you and very very big thank to [Wenting Zhang](https://twitter.com/DesignJokes)
+
+****
