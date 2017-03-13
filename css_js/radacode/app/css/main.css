@@ -110,7 +110,8 @@ body {
 .main-logo {
   max-width: 480px;
   text-align: right;
-  padding: 25px 25px 0px 18px; }
+  padding: 25px 25px 0px 18px;
+  position: relative; }
   .main-logo__caption {
     text-transform: capitalize;
     font-size: 186.8%;
@@ -284,3 +285,8 @@ body {
     text-align: center;
     font-size: 180%;
     margin-bottom: 1%; }
+
+.footprint {
+  display: none; }
+  .footprint img {
+    max-width: 100%; }

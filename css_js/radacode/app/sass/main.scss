@@ -106,6 +106,7 @@ clip-path: polygon(0 90%, 0 0, 100% 0, 100% 90%, 50% 100%);
 	max-width: 480px;
 	text-align: right;
 	padding: 25px 25px 0px 18px;
+	position: relative;
 	&__caption {
 		text-transform: capitalize;
 		font-size: 186.8%;
@@ -308,6 +309,11 @@ clip-path: polygon(0% 100%, -144% 100%, 50% 0%, 244% 100%, 0% 100%);
 	}
 }
 
-
+.footprint {
+	display: none;
+	img {
+		max-width: 100%;
+	}
+}
 
 
