@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Simple page
-date: 2017-03-12
+title: Flat page
+date: 2017-03-17
 category: works
 excerpt_separator: <!--more-->
 ---
