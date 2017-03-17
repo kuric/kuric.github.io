@@ -1,0 +1,18 @@
+---
+layout: post
+title: Simple page
+date: 2017-03-12
+category: works
+excerpt_separator: <!--more-->
+---
+
+# Simple page
+[<img src="/images/fulls/Flat Style Web Template PSD - cssauthor.com.png" class="image">](/my-works/flat/index.html)
+
+This site was develop for practice. Uses Gulp, SASS, Bootstrap grid.
+
+Result : simple and fast site on Bootstrap.
+
+[See here](/my-works/flat/index.html)
+
+****
