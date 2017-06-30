@@ -1,0 +1,25 @@
+---
+layout: post
+title: Earth in danger
+date: 2017-06-30
+category: css_js
+excerpt_separator: <!--more-->
+---
+# Earth
+## Let me introduce simple time-killer game - Earth in danger!(only PC browsers)
+In this game I used only pure JavaScript( draw on canvas, DOM events and other).
+### This is the part of code of this game
+```
+	function Player() {
+	this.isUp = false;
+	this.isDown = false;
+	this.isRight = false;
+	this.isLeft = false;
+	Item.apply(this, arguments);
+}
+```
+## Game options:
+MOVE: W,S,A,D 
+FIRE: SPACE
+Full result and play this game you can [See here](/css_js/earth/index.html)
+## Earth in danger! Save the Earth!
