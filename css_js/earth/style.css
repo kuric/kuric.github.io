@@ -34,6 +34,7 @@ canvas {
 	height: 25%;
 }
 #start {
+	z-index: 1001;
 	display: none;
 	position: absolute;
 	top: 50%;
