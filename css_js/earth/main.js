@@ -368,6 +368,7 @@ setInterval(function () {
 	}, Math.random()*60000+20000);
 
 function ready() {
+	document.getElementById('titles').style.display ='none';
 	reset();
 	interval = setInterval(function() {
 	missiles += 100;
