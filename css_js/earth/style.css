@@ -34,7 +34,7 @@ canvas {
 	height: 25%;
 }
 #start {
-	
+
 	display: none;
 	position: absolute;
 	top: 50%;
@@ -53,7 +53,7 @@ canvas {
 	font-weight: bold;
 	color: #edb309;
 	text-transform: uppercase;
-	// display: none;
+	display: none;
 	position: absolute;
 	top: 20%;
 	left: 50%;
