@@ -1,46 +1,66 @@
-locale: "en-US"
-title: Front-end blog for newbies # Title of your site
-url: "http://kuric.github.io" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/
-google_analytics_key: "UA-92402892-1"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Default description in social shares for the jekyll-seo-tag gem
-description: > # this means to ignore newlines until "baseurl:"
-  Front-end developer portfolio and blogs. Some CSS Magic, some JS scripts and other.
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Oleksandr Andrieiev
+email: "kuricyak@gmail.com"
+description: >
+  Ambitious web developer, looking to share my programming journey, as well as keep an organized list of projects in one place.
+about_me: >
+   I got into programming because I love making things. Now I can work anytime, anywhere with all the latest tools.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+linked_in_link: "https://www.linkedin.com/in/oleksandr-andrieiev/"
+twitter_username: "https://twitter.com/kuridz"
+github_link: "https://www.github.com/kuric"
 
-# Author details for the jekyll-seo-tag gem
-author:
-  name: Oleksandr Andrieiev
-  email: kuricyak@gmail.com
-  twitter: kuridz
+select_options: clear-filters HTML5 CSS3 SCSS javaScript jQuery materialize charts.js React jekyll Ruby-on-Rails Sinatra front-end back-end finished current
+sass:
+  sass_dir: assets/css/main.css
+  style: :nested
 
-# Social details for the jekyll-seo-tag gem
-social:
-  name: Oleksandr Andrieiev portfolio
-  links:
-    - https://github.com/kuric
-    - https://www.linkedin.com/in/alexander-andreev-33652827/
-    - https://www.facebook.com/oleksandr.kuric
+# Build settings
 
-permalink: pretty
+markdown: kramdown
+# !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
+# Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
+highlighter: rouge
+
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+kramdown:
+  input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 gems:
   - "jekyll-feed"
-  - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-sitemap"
 
-# Jekyll SEO Tag
-webmaster_verifications:
-  google: # 1234
-  bing: # 1234
-  alexa: # 1234
-  yandex: # 1234
-
-# -----------
-# CloudCannon
-
-social_icons:
-  - Facebook
-  - LinkedIn
-  - Twitter
+exclude:
+  - Gemfile
+  - Gemfile.lock

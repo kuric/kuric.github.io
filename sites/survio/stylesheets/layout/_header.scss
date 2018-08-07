@@ -1,0 +1,117 @@
+/* ==|======================
+   Layout/Header
+   ========================= */
+@import "modules/_variables.scss";
+@import "modules/_colors.scss";
+.l-header {
+	color: $header-color;
+  @include clearfix;
+  .l-logo {
+  	width: percentage(2/12);
+    float: left;
+    height: percentage(2/12);
+    
+     img {
+		max-width: 100%;
+		&:hover {
+			animation: shake .3s linear;
+		}
+     }
+     @keyframes shake {
+     	0% {
+			
+     	}
+     	
+     	100% {
+			transform: rotate(360deg);
+     	}
+     }
+  }
+  .l-menu {
+  	width: percentage(10/12);
+    padding-right: 10px;
+    float: right;
+   
+    
+    ul {
+    	 float: right;
+    }
+    li {
+    	display: inline-block;
+    	 margin-left: 40px;
+    	 position: relative;
+    	 
+    	a {
+    		margin: 60px 0px;
+			display: block;
+    		text-decoration: none;
+    		color: $header-color;
+    		font: 14px/27px $font-family;
+    	}
+    	&:before, &:after  {
+	height: 30px;
+	position: absolute;
+	content:'';
+	width:2px;
+	background-color: #687b88;
+	transition: 0.5s;
+	top: 0;
+	margin: 60px 0;
+	opacity: 0.4;
+}
+&:hover > a {
+	color: $primaryColour;
+}
+&:before {
+	left: -10px;
+}
+&:after {
+	right: -10px;
+}
+&:hover:before,&:hover:after {
+	position: absolute;
+	background-color: #fff;
+	content: '';
+	width:2px;
+	height: 45px;
+	transition: 0.5s;
+	opacity: 0.4;
+}
+&:hover:before {
+	transform: rotate(-90deg);
+	top: -15%;
+	left: 48%;
+}
+&:hover:after {
+	transform: rotate(-90deg);
+	top: 5%;
+	right: 50%;
+}
+}
+  }
+  .l-main-info {
+	clear: both;
+  	margin-left: 10px;
+    margin-right: 10px;
+  	width: percentage(7/12);
+  	float: left;
+  	 h1 {
+  	 	font: 51px/71px $font-family;
+  	 	margin-bottom: 20px;
+  	 }
+  	 p {
+  	 	font: 17px/30px $font-family;
+  	 }
+  	 p:last-child {
+  	 	margin-top: 10px;
+  	 	font: 20px/30px $font-family;
+  	 }
+  }
+  
+  .l-reg-form {
+  	margin-left: 10px;
+    margin-right: 10px;
+  	width: percentage(4/12);
+  	float: right;
+  }
+}

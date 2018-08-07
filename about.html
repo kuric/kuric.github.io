@@ -1,27 +1,36 @@
 ---
-layout: default
+layout: not_homepage
+quote: Today is life-the only life you are sure of. Make the most of today. Get interested in something. Shake yourself awake. Develop a hobby. Let the winds of enthusiasm sweep through you. Live today with gusto.
+author: Dale Carnegie
 ---
-<nav class="main__navigation">
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/works">Works</a></li>
-    <li><a href="/css_js">Code</a></li>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/resume">CV</a></li>
-  </ul>
-</nav>
-<div id="main">
-<article>
-<h1>Hello! My name is Oleksandr. I'm a front-end developer.</h1>
 
-<h2>In my work I use HTML5, CSS3 validate code.</h2>
+{% include quote.html quote=page.quote author=page.author %}
 
-<h3>I always write a new grid for each project in this help me preprocessors like LESS, SASS, JADE and others.</h3>
-<h3>If a customer wants then I use a Bootstap, Foundation and others grids, but in my opinion and experience is better to use own grid :).</h3>
-
-<h3>Also in my projects I can use JQUERY or pure JS, depending on what is better or faster in particular case. From working projects can cite as an example the project <a href="http://wombart.net">wombart.net</a> - this is blog about art (I advise you to read it).</h3>
-
-<h3>Thank you for visit my site</h3>
-</article>
+<div class="container about_section">
+  <div class="row">
+    <img src="/assets/images/profile_picture.jpg" class="col m2 s3 responsive circle about_img" alt="me">
+    <div class="about_paragraph">
+      <p>
+        Hi, my name is Oleksandr and I'm a programmer. Web programming for the first time I was interested, when it was necessary to create a website for my wife-artist. The process itself took a long time, at times it was difficult to understand, but gradually it interested me. The result can be seen here - <a class="about_me_links" href="http://wombart.net">wombart.net</a>. Since then, I have dealt with CSS3, HTML, learned JS, JQuery, some frameworks, data bases and etc.
+      </p>
+      <p>
+        I am now looking for my next adventure, so feel free to browse the <a class="about_me_links" href="/projects">projects</a> section to check out what I've built, <a class="about_me_links" href="/contact">shoot me an email</a> or connect on <a class="about_me_links" href="https://www.linkedin.com/in/oleksandr-andrieiev/">linkedIn</a>.
+      </p>
+    </div>
+  </div>
+  <h3 class="heading skills_heading center-align">Skills:</h3>
+  <div class="skills_wrapper">
+      {% for tech_group in site.data.skills %}
+        <div class="skill_group">
+          <div class="col m4 s6">
+            <h4 class="heading">{{tech_group.name}}:</h4>
+            <div class="skills">
+              {% for tech in tech_group.skills %}
+              <i class="about_skill_icon devicon-{{tech.class}}"></i><span class="skill_names">{{tech.skill_name}}</span><br/>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+  </div>
 </div>

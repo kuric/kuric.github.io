@@ -1,0 +1,61 @@
+- name: web
+  skills:
+    - class: html5-plain
+      skill_name: HTML5
+    - class: css3-plain
+      skill_name: CSS3
+    - class: sass-plain
+      skill_name: SCSS
+    - class: bootstrap-plain
+      skill_name: Bootstrap
+    - class: jquery-plain
+      skill_name: jQuery
+
+- name: languages
+  skills:
+    - class: javascript-plain
+      skill_name: JavaScript
+
+- name: databases
+  skills:
+    - class: mysql-plain
+      skill_name: mysql
+    - class: mongodb-plain
+      skill_name: MongoDB
+
+# - name: frontend frameworks
+#   skills:
+#     - class: react-plain
+#       skill_name: React
+#     - class: angularjs-plain
+#       skill_name: Angular
+#     - class: vuejs-plain
+#       skill_name: Vue
+#     - class: jekyll-plain
+#       skill_name: Jekyll
+
+- name: backend frameworks
+  skills:
+    - class: express-original
+      skill_name: Express
+    - class: nodejs-plain
+      skill_name: NodeJS
+
+- name: devops
+  skills:
+    - class: git-plain
+      skill_name: Git
+    - class: github-plain
+      skill_name: GitHub
+    - class: heroku-original
+      skill_name: Heroku
+    - class: docker-plain
+      skill_name: Docker
+
+- name: testing
+  skills:
+    - class: mocha-plain
+      skill_name: Mocha
+    - class: jasmine-plain
+      skill_name: Jasmine
+

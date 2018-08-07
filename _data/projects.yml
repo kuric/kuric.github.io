@@ -1,0 +1,229 @@
+- id: 2
+  title: Code Together
+  url: https://codetogether.herokuapp.com/
+  github_url: https://github.com/kuric/codetogether
+  description: A simple collaborate code editor allowing registered users to code together. Site have two themes (dark and light). Logged-in users have the benefit of viewing saved code, chating with other users, create pages with code and etc.
+  technologies: [
+                  html5-plain,
+                  css3-plain
+                  javascript-plain,
+                  nodejs-plain,
+                  mongodb-plain,
+                  express,
+                  heroku-original
+                ]
+  cover: /assets/images/project_covers/code-together.png
+  images: [
+    '/assets/images/project_images/code-together/editor.png',
+    '/assets/images/project_images/code-together/chat.png'
+  ]
+
+- id: 3
+  title: Motion
+  url: ../sites/motion/
+  github_url: https://github.com/kuric/motion
+  description: A standard project created with flex, smart-grid, Less, Jquery, JS and etc.. In the project I used optimized template (only PUG, only Less) and build that in Gulp. Using a template was a very simple, very fast and I got a lot of experience experience when using PUG and working with GULP.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark,
+                  javascript-plain,
+                ]
+  cover: /assets/images/project_covers/motion.png
+  images: [
+    '/assets/images/project_images/motion/motion.png'
+  ]
+- id: 4
+  title: CUDA
+  url: ../sites/cuda/
+  github_url: https://github.com/kuric/cuda
+  description: In work I used flex, SASS, Jquery, some JS, WOW,JS and animate.css
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark,
+                  javascript-plain
+                ]
+  cover: /assets/images/project_covers/cuda.png
+  images: [
+    '/assets/images/project_images/cuda/cuda.png'
+  ]
+- id: 5
+  title: Adornment
+  url: ../sites/adornment/
+  github_url: https://github.com/kuric/adornment
+  description: Simple template for practice
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark
+                ]
+  cover: /assets/images/project_covers/adornment.png
+  images: [
+    '/assets/images/project_images/adornment/adornment.png'
+  ]
+- id: 6
+  title: Asterisk
+  url: ../sites/asterisk/
+  github_url: https://github.com/kuric/asterisk
+  description: Simple template for practice. HTML5, CSS3.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark
+                ]
+  cover: /assets/images/project_covers/asterisk.png
+  images: [
+    '/assets/images/project_images/asterisk/asterisk.png'
+  ]
+- id: 7
+  title: Business Ideas
+  url: ../sites/business_ideas/
+  github_url: https://github.com/kuric/business-ideas
+  description: Simple template for practice. HTML5, CSS3, JS.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark,
+                  javascript-plain
+                ]
+  cover: /assets/images/project_covers/business_ideas.png
+  images: [
+    '/assets/images/project_images/business_ideas/business_ideas.png'
+  ]
+- id: 8
+  title: Down The Stream
+  url: ../sites/down-the-stream/
+  github_url: https://github.com/kuric/down-the-stream
+  description: Simple template for practice. HTML5, CSS3.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark
+                ]
+  cover: /assets/images/project_covers/down-the-stream.png
+  images: [
+    '/assets/images/project_images/down-the-stream/down-the-stream.png'
+  ]
+- id: 9
+  title: Flat
+  url: ../sites/flat/
+  github_url: https://github.com/kuric/flat
+  description: Simple template for practice. Flex, SCSS, Jquery, some JS, wow.js and animate.css.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark,
+                  javascript-plain
+                ]
+  cover: /assets/images/project_covers/flat.png
+  images: [
+    '/assets/images/project_images/flat/flat.png'
+  ]
+- id: 10
+  title: Survio
+  url: ../sites/survio/
+  github_url: https://github.com/kuric/survio
+  description: Template for opinion company. Flex, SCSS, Jquery, wow.js and animate.css.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark,
+                  javascript-plain, 
+                  sass-original
+                ]
+  cover: /assets/images/project_covers/survio.png
+  images: [
+    '/assets/images/project_images/survio/survio.png'
+  ]
+- id: 11
+  title: Elysa4T
+  url: ../sites/elysa4T/
+  github_url: https://github.com/kuric/elysa4T
+  description: Template for opinion company. Flex, SCSS, Jquery, wow.js and animate.css.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark, 
+                  sass-original
+                ]
+  cover: /assets/images/project_covers/elysa4T.png
+  images: [
+    '/assets/images/project_images/elysa4T/elysa4T.png'
+  ]
+- id: 12
+  title: KEEN
+  url: ../sites/home-agency-verstka/
+  github_url: https://github.com/kuric/home-agency
+  description: Simple template. Flex, SCSS, Jquery, wow.js and animate.css, html5-shiv and etc.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark,
+                  javascript-plain
+                ]
+  cover: /assets/images/project_covers/home-agency.png
+  images: [
+    '/assets/images/project_images/home-agency/home-agency.png'
+  ]
+- id: 13
+  title: Yellow Moon
+  url: ../sites/yellowmoon/
+  github_url: https://github.com/kuric/yellowMoon
+  description: Cool template! Flex, SCSS, Jquery, wow.js and animate.css, html5-shiv and etc.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark,
+                  javascript-plain, 
+                  sass-original
+                 ]
+  cover: /assets/images/project_covers/yellowMoon.png
+  images: [
+    '/assets/images/project_images/yellowmoon/yellowMoon.png'
+  ]
+- id: 14
+  title: Video Blog
+  url: ../sites/video-blog/
+  github_url: https://github.com/kuric/video-blog
+  description: Simple template for video blog. HTML5, CSS3, animate.css and etc.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark
+                ]
+  cover: /assets/images/project_covers/video-blog.png
+  images: [
+    '/assets/images/project_images/video-blog/video-blog.png'
+  ]
+- id: 15
+  title: Green Orange
+  url: ../sites/greenorange/
+  github_url: https://github.com/kuric/greenorange
+  description: Simple site. HTML5, CSS3, JS, animate.css and etc.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark,
+                  javascript-plain, 
+                  sass-original
+                ]
+  cover: /assets/images/project_covers/greenorange.png
+  images: [
+    '/assets/images/project_images/greenorange/greenorange.png'
+  ]
+- id: 16
+  title: Blog FTW
+  url: ../sites/fwtcorrugated/
+  github_url: https://github.com/kuric/fwtcorrugated
+  description: Simple template for blog. HTML5, CSS3.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark
+                ]
+  cover: /assets/images/project_covers/fwtcorrugated.png
+  images: [
+    '/assets/images/project_images/ftwcorrugated/fwtcorrugated.png'
+  ]
+- id: 17
+  title: Earth
+  url: ../js/earth/
+  github_url: https://github.com/kuric/earth
+  description: Simple game on canvas.
+  technologies: [
+                  html5-plain,
+                  css3-plain-wordmark,
+                  javascript-plain
+                ]
+  cover: /assets/images/project_covers/earth.png
+  images: [
+    '/assets/images/project_images/earth/earth.png',
+    '/assets/images/project_images/earth/game.png'
+  ]

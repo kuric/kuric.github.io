@@ -1,0 +1,9 @@
+@media only screen and (max-width : 994px) {
+	.menu {
+		width: 100%;
+	}
+	.menu__list {
+    width: 100%;
+    text-align: center;
+	}
+}
