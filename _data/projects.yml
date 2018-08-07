@@ -169,7 +169,7 @@
                  ]
   cover: /assets/images/project_covers/yellowMoon.png
   images: [
-    '/assets/images/project_images/yellowmoon/yellowMoon.png'
+    '/assets/images/project_images/yellowMoon/yellowMoon.png'
   ]
 - id: 14
   title: Video Blog
