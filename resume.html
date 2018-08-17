@@ -1,10 +1,55 @@
----
+--- 
 layout: not_homepage
 quote: If you call failures experiments, you can put them in your resume and claim them as achievements.
-author: Mason Cooley
----
-
+author: Mason Cooley 
+--- 
 {% include quote.html quote=page.quote author=page.author %}
+<div class="certifications">
+  <div class="row">
+    <div class="col m3 s12">
+      <a class="modal-trigger" href="#cert1">
+        <img class="col m12 s12 responsive" src="../assets/certifications/legacy-front-end.png" alt="legacy-front-end certificate">
+      </a>
+    </div>
+    <div class="col m3 s12">
+      <a class="modal-trigger" href="#cert2">
+        <img class="col m12 s12 responsive" src="../assets/certifications/responsive-web-design.png" alt="legacy-front-end certificate">
+      </a>
+    </div>
+    <div class="col m3 s12">
+      <a class="modal-trigger" href="#cert3">
+        <img class="col m12 s12 responsive" src="../assets/certifications/javascript-algorithms.png" alt="legacy-front-end certificate">
+      </a>
+    </div>
+    <div class="col m3 s12">
+      <a class="modal-trigger" href="#cert4">
+        <img class="col m12 s12 responsive" src="../assets/certifications/apis-and-microservices.png" alt="legacy-front-end certificate">
+      </a>
+    </div>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="cert1" class="modal">
+    <div class="modal-content">
+      <img style="width:100%; height:auto" src="../assets/certifications/legacy-front-end.png" alt="legacy-front-end certificate">
+    </div>
+  </div>
+  <div id="cert2" class="modal">
+    <div class="modal-content">
+      <img style="width:100%; height:auto" src="../assets/certifications/responsive-web-design.png" alt="legacy-front-end certificate">
+    </div>
+  </div>
+  <div id="cert3" class="modal">
+    <div class="modal-content">
+      <img style="width:100%; height:auto" src="../assets/certifications/javascript-algorithms.png" alt="legacy-front-end certificate">
+    </div>
+  </div>
+  <div id="cert4" class="modal">
+    <div class="modal-content">
+      <img style="width:100%; height:auto" src="../assets/certifications/apis-and-microservices.png" alt="legacy-front-end certificate">
+    </div>
+  </div>
+</div>
 
 <div class="row resume-wrapper">
   <a href="../assets/resume.pdf" title="click to open in pdf viewer" target="_blank">
